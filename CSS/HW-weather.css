@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+html,body{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/bgopacity.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.radius {
+    border-radius: 15px;
+  }
+
+nav {
+    width: 100%;
+    padding: 3px 50px;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-items: center;
+    transition: 0.6s;
+    background-color: #B1D3F7;
+  }
+nav:hover {
+    background-color: #B1D3F7;
+    transition: 0.6s;
+  }
+nav .btn {
+    width: 80px;
+    height: 30px;
+    line-height: 25px;
+    font-size: 14px;
+    font-weight: bolder;
+    text-align: center;
+    white-space: nowrap;
+    color: rgb(96, 62, 62);
+    border: 2px solid #FFf;
+    transition: 0.3s;
+    cursor: pointer;
+    margin: 1px 15px;
+  }
+nav .btn:hover {
+    color: #7f8e47e9;
+    border: 2px solid #F2D795;
+    border-radius: 20px;
+    transition: 0.3s;
+  }
+
+.container{
+/* background-image: url("../img/bg.jpg");
+background-size: cover;
+opacity: 0.5 ; */
+display: grid;
+grid-template-columns: repeat(5, 1fr); 
+}
+
+.citycard{
+    margin: 20px 50px ;
+    width: 150px;
+    height: 250px;
+    opacity: 0.9;
+}
+
+.citycard img{
+    width: 100%;
+    height: 50%;
+    object-fit: contain;
+    background-color: #fff;
+    background-size:cover;
+    background-position: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.maintext{
+    text-align: center;
+    flex-direction: column;
+    background-color: rgb(194, 208, 148);
+    margin-top: -5px;
+    opacity: 0.9;
+    color:#2e2b2b;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.city-name{
+    font-size: 24px;
+    padding: 5px;
+    font-weight:900;
+}
+
+.date{
+    font-size: 15px;
+    padding:5px;
+}
+
+.c-temp{
+    font-size: 16px;
+    padding: 2px;
+}
+
+.apparent-temp{
+    font-size: 16px;
+    padding: 2px;
+}
+
+.rainny{
+    padding-bottom: 4px;
+  }
+  
+footer{
+    width: 100%;
+    height: 10px;
+    text-align:right;
+    line-height: 15px;
+    font-size: 10px;
+    color: #b6b4b4;
+    text-shadow: 1px 1px 2px #FFF;
+    position: absolute;
+    right: 0;
+    bottom: -680px;
+  }
+
+
+ 
